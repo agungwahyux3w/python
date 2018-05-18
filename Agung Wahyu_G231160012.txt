@@ -1,0 +1,61 @@
+List
+
+-thislist = ["apple", "banana", "cherry"]
+print(thislist)
+Output
+[‘apple’, ‘banana’, ‘cherry’]
+
+-thislist = ["apple", "banana", "cherry"]
+thislist[2] = "blackcurrant"
+print(thislist)
+output
+[‘apple’.’banana’,’blackcurrant’]
+
+-thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+output
+[‘apple’.’blackcurrant’,’cherry’]
+
+Tuple
+
+-thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+output
+(‘apple, ‘banana’, ‘cherry’)
+
+-thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+output
+banana
+
+-thistuple = tuple(("apple", "banana", "cherry")) 
+print(thistuple)
+output
+(‘apple, ‘banana’, ‘cherry’)
+
+Dictionary
+
+-thisdict = {
+  "apple": "green",
+  "banana": "yellow",
+  "cherry": "red"
+}
+print(thisdict)
+output
+{'apple': 'green', 'banana': 'yellow', 'cherry': 'red'}
+
+-thisdict = {
+  "apple": "green",
+  "banana": "yellow",
+  "cherry": "red"
+}
+thisdict["apple"] = "red"
+print(thisdict)
+output
+{'apple': 'red', 'banana': 'yellow', 'cherry': 'red'}
+
+-thisdict = dict(apple="green", banana="yellow", cherry="red")
+print(thisdict)
+output
+{'apple': 'green', 'banana': 'yellow', 'cherry': 'red'}
